@@ -1,11 +1,13 @@
+// src/App.js
+
+import React from 'react'
+import Employees from './Employees'
+import './App.css'
 
 function App() {
-
-
   return (
     <div className="App">
-       <h1>RYAN KY O. LAROA</h1>
-       <h2>GIAN HEINRICH RECANA</h2>
+      <Employees />
     </div>
   )
 }
